@@ -8,7 +8,7 @@ class WeatherController extends Controller
 {
     public function getWeather(Request $request)
     {
-        $apiKey = '56a359e94e66f9448f3c67ab2e149cfc'; // Reemplaza con tu clave de API de OpenWeatherMap
+        $apiKey = ''; // Reemplaza con tu clave de API de OpenWeatherMap
         $city = $request->input('city');
 
         // Verifica si se proporcionó una ciudad en la solicitud
